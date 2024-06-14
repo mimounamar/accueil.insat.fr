@@ -1,0 +1,330 @@
+@font-face {
+    font-family: "Press Start 2P";
+    src: url('/assets/PressStart2P-Regular.ttf');
+}
+@font-face {
+    font-family: "Press Start 2P Cond";
+    src: url('/assets/PressStart2P-Regularcond.ttf');
+}
+body {
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+    font-size: 33px;
+    font-family: "Press Start 2P", monospace !important;
+}
+.page-division {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+h1, h2 {
+    padding: 0;
+    margin: 0;
+}
+#cartridge-choice {
+    background: #071821;
+    font-family: "Press Start 2P", monospace;
+    color: #e0f8cf;
+    box-sizing: border-box;
+    padding: 0 50px;
+    text-align: center;
+}
+#cartridges-container {
+    margin-top: 20px;
+    width: 100%;
+    height: calc(100%/2 - 40px);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.cartridge-click {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: none;
+    border: none;
+    height: 80%;
+    transition: transform 1s;
+}
+.cartridge-click:hover {
+    transform: translateY(-30px);
+}
+h1{
+    font-size: 30px;
+}
+h2{
+    font-size: 20px;
+}
+@media only screen and (max-width: 1100px) {
+    #cartridge-choice {
+        height: 100vh;
+    }
+    #cartridges-container {
+        height: calc(65% - 40px);
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    button.cartridge-click {
+        flex: 0 0 calc(50% - 10px);
+        max-width: calc(50% - 10px);
+        box-sizing: border-box;
+        margin: 5px;
+        max-height: 40%;
+        object-fit: contain;
+    }
+    h1{
+        font-size: 25px;
+    }
+    h2{
+        font-size: 14px;
+    }
+}
+@media only screen and (max-width: 720px) {
+    h1{
+        font-size: 20px;
+    }
+    h2{
+        font-size: 12px;
+    }
+}
+.body-team-specific {
+    margin: 0;
+    padding: 0 40px;
+    background: url("../assets/pkchu_bg.jpeg") repeat;
+    background-size: 25%;
+    min-height: calc(100vh - 25px);
+    box-sizing: border-box;
+    width: 100vw;
+    padding-bottom: 10px;
+}
+nav {
+    display: flex !important;
+    box-sizing: border-box !important;
+    padding: 0 !important;;
+    margin: 0!important;
+    margin-top: 25px !important;
+    justify-content: space-between;
+    align-items: center;
+    width: calc(100vw - 80px);
+    background: #C9CACE;
+    border-color: #D1D1CF;
+    border-style: solid;
+    border-width: 2px;
+    top: 0;
+    position: sticky;
+    border-image-repeat: stretch !important;
+}
+nav:before{
+    position: absolute;
+    content: "";
+    height: 12px;
+    width: 5px;
+    background: black;
+    top: -30px;
+    right: 50%;
+}
+nav:after{
+    position: absolute;
+    content: "";
+    height: 10px;
+    width: 5px;
+    background: black;
+    top: -18px;
+    right: calc(50% + 2px);
+}
+.nav-list {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0;
+    width: 100%;
+}
+.nav-lis-element {
+    display: block;
+    margin: 5px;
+}
+.text-content {
+    margin-top: 20px;
+    background: rgba(255,255,255,0.7);
+    text-align: justify;
+}
+.nes-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nes-text {
+    width: calc(100% - 220px);
+}
+.nes-text-alt {
+    width: 100%;
+}
+.nes-planning {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.column {
+    display: flex;
+    width : calc(100% / 8);
+    flex-direction: column;
+}
+.cell {
+    width: 100%;
+    height: 50px !important;
+    padding: 0 !important;
+    border-top: none !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+    text-align: center;
+}
+.header-cell {
+    border-top: solid !important;
+    border-left: none !important;
+    font-weight: bold;
+}
+#time-header {
+    border-left: solid !important;
+}
+.nes-content p {
+    font-size: 13px;
+    font-family: "Press Start 2P Cond";
+    text-align: left;
+}
+.pokemon-cards img {
+    display: block;
+}
+.pokemon-cards {
+    width: calc(100vw - 150px);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.nes-text-alt {
+    display: flex;
+    flex-direction: column;
+}
+.video-gameboy-advance {
+    text-align: center;
+    height: 300px;
+}
+.video-gba-image {
+    height: 300px;
+}
+.video-gba-iframe {
+    height: 125px;
+    width: 220px;
+    position: relative;
+    top: 114px;
+    transform: translateY(-336px);
+}
+.nes-btn {
+    font-size: 13px;
+    width: 180px;
+}
+.controller-btn {
+    padding: 0 3px;
+}
+@media only screen and (max-width: 580px) {
+    .controller-btn {
+        display: none;
+    }
+}
+.nav-variable-control {
+    display: none;
+}
+.title {
+    text-align: center !important;
+}
+.btn-container-nes {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.btn-container-nes > a {
+    width: 70%;
+    height: auto;
+}
+@media only screen and (max-width: 690px) {
+    .nav-variable {
+        display: none;
+    }
+    .nav-variable-control {
+        display: block;
+    }
+    .nav-list {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .nes-content {
+        display: flex;
+        flex-direction: column;
+    }
+    .nes-content>img {
+        height: 150px;
+    }
+    .nes-text {
+        width: 100%;
+        margin-top: 15px;
+        font-size: 12px !important;
+    }
+    .title {
+        font-size: 15px !important;
+    }
+    .nes-text>p {
+        font-size: 13px;
+    }
+    .illustration {
+        height: 400px;
+        max-width: calc(100% - 64px);
+        object-fit: contain;
+        width: auto;
+    }
+    .pokemon-cards {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .illustration-card {
+        height: 300px;
+    }
+}
+@media only screen and (max-width: 760px) {
+    .video-gba-image {
+        display: none;
+    }
+    .video-gba-iframe {
+        transform: none;
+        position: relative;
+        top: 0;
+    }
+    .video-gameboy-advance {
+        height: auto;
+    }
+}
+.body-wip {
+    margin: 0;
+    padding: 0 40px;
+    background: #E70013;
+    background-size: 25%;
+    min-height: calc(100vh - 25px);
+    box-sizing: border-box;
+    width: 100vw;
+    padding-bottom: 10px;
+}
+.nes-full-body {
+    min-height: calc(100vh - 40px);
+}
+.nes-full-body > section {
+    min-height: calc(100vh - 120px);
+}
