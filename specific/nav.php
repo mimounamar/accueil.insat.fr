@@ -8,19 +8,22 @@
             <a class="nes-btn" href="index.php">Accueil</a>
         </li>
         <li class="nav-lis-element nav-variable">
-            <a class="nes-btn">Planning</a>
+            <a class="nes-btn" href="planning.php">Planning</a>
         </li>
         <li class="nav-lis-element nav-variable">
-            <a class="nes-btn">Blouse</a>
+            <a class="nes-btn" href="blouse.php">Blouse</a>
         </li>
         <li class="nav-lis-element nav-variable">
-            <a class="nes-btn">Vie à l'INSA</a>
+            <a class="nes-btn" href="campus_life.php">Vie à l'INSA</a>
         </li>
         <li class="nav-lis-element nav-variable">
-            <a class="nes-btn">Prévention</a>
+            <a class="nes-btn" href="prevention.php">Prévention</a>
         </li>
         <li class="nav-lis-element nav-variable">
-            <a class="nes-btn" href="https://parrainage.insat.fr/ppa">Parrainage</a>
+            <a class="nes-btn" href="https://parrainage.accueil.insat.fr/ppa">Parrainage</a>
+        </li>
+        <li class="nav-lis-element nav-variable">
+            <a class="nes-btn" href="/" onclick="document.cookie =  'selected_team=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/';">Quitter</a>
         </li>
     </ul>
     <img class="controller-btn" src="../assets/ABXY.png" style="height: 100px">

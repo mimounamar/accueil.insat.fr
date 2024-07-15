@@ -6,6 +6,7 @@
     <title>Semaine d'accueil 2024 - INSA de Toulouse</title>
     <link rel="stylesheet" href="../styles/common.css">
     <link rel="stylesheet" href="../styles/gameboy.css">
+    <link rel="icon" type="image/x-icon" href="/assets/favicon.ico">
 </head>
 <body>
 <div class="page-division" style="background: #E70013">
@@ -155,6 +156,9 @@
         }
         ?>
     </div>
+    <p style="font-size: 9px; margin: 0 20%">Site de la semaine d'accueil 2024 pour l'INSA Toulouse. <br>
+        Tous les éléments présents sur ce site sont représentés à des fins humoristiques. Nous ne cherchons en aucun cas à véhiculer un quelconque message et condamnons toute action irrespectueuse.<br>
+        Copyright © 2024 - Tous droits réservés </p>
 </div>
 </body>
 </html>

@@ -8,8 +8,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://unpkg.com/nes.css@2.3.0/css/nes.min.css" rel="stylesheet" />
+    <link rel="icon" type="image/x-icon" href="/assets/favicon.ico">
 </head>
-<body class="body-team-specific">
+<body class="body-team-specific" style="background: url('../assets/<?php echo $_COOKIE['selected_team']; ?>_bg.jpeg') repeat; background-size: 25%;">
 <?php include "nav.php"; ?>
 <div class="nes-container with-title text-content">
     <p class="title">Coucou, nous c'est la Com' Prév</p>
@@ -45,5 +46,8 @@
         <iframe class="video-gba-iframe" src="https://www.youtube.com/embed/Eak9JO1zO2U" title="Tuto Lydia" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </div>
 </div>
+<p style="font-size: 9px; margin: 15px 20%; text-align: center">Site de la semaine d'accueil 2024 pour l'INSA Toulouse. <br>
+    Tous les éléments présents sur ce site sont représentés à des fins humoristiques. Nous ne cherchons en aucun cas à véhiculer un quelconque message et condamnons toute action irrespectueuse.<br>
+    Copyright © 2024 - Tous droits réservés </p>
 </body>
 </html>

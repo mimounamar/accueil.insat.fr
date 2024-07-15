@@ -8,8 +8,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://unpkg.com/nes.css@2.3.0/css/nes.min.css" rel="stylesheet" />
+    <link rel="icon" type="image/x-icon" href="/assets/favicon.ico">
 </head>
-<body class="body-team-specific">
+<body class="body-team-specific" style="background: url('../assets/<?php echo $_COOKIE['selected_team']; ?>_bg.jpeg') repeat; background-size: 25%;">
 <?php include "nav.php"; ?>
 <div class="nes-container with-title text-content">
     <p class="title">Izly</p>
@@ -17,7 +18,7 @@
         <img src="../assets/izly_cartridge.png" style="max-height: 200px">
         <div class="nes-text">
             <p>Tous les midi, après une longue et fastidieuse chasse aux Pokémon, tu pourras te régaler au RU (Restaurant Universitaire) de l’INSA ! Pour cela, il te faudra Izly: une application du Crous, ce réseau qui gère beaucoup de « détails » sur nos vies, comme nos repas le midi et nos apparts.</p>
-            <p>Tu pourras remplir ton compte Izly avec plein de Pokédollars et passer à la borne de paiement avec le QR Code généré par l’application. À ce propos, Petit Prince Adoré, sache que chaque repas est compté comme un plat + 2 « périphériques » (1 périphérique = 1 entrée ou 1 dessert). Tu peux prendre plus, mais ça te coûtera plus cher. </p>
+            <p>Tu pourras remplir ton compte Izly avec plein de Pokédollars et passer à la borne de paiement avec le QR Code généré par l’application. À ce propos, Petit·e Prince·sse Adoré·e, sache que chaque repas est compté comme un plat + 2 « périphériques » (1 périphérique = 1 entrée ou 1 dessert). Tu peux prendre plus, mais ça te coûtera plus cher. </p>
             <p>En fait, Izly te sert à payer tout ce que le Crous peut te proposer en termes de nourriture, que ce soit au RU, pour le food truck ou à la cafèt’. Et pour ceux qui préfèrent le matériel au QR Code, Izly est aussi connectée à ta carte étudiante, donc tu pourras payer avec celle-ci (c’est pas la classe ça ?).</p>
             <p>Allez, le petit mot de la fin qui prouve que cette appli est vraiment INDISPENSABLE : tu paies le café aux distributeurs avec ta carte étudiante (connectée à Izly, tu l’auras compris).</p>
         </div>
@@ -37,5 +38,8 @@
         <iframe class="video-gba-iframe" src="https://www.youtube.com/embed/TwaA3jlW8kM" title="Tuto Lydia" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </div>
 </div>
+<p style="font-size: 9px; margin: 15px 20%; text-align: center">Site de la semaine d'accueil 2024 pour l'INSA Toulouse. <br>
+    Tous les éléments présents sur ce site sont représentés à des fins humoristiques. Nous ne cherchons en aucun cas à véhiculer un quelconque message et condamnons toute action irrespectueuse.<br>
+    Copyright © 2024 - Tous droits réservés </p>
 </body>
 </html>

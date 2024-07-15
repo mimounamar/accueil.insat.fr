@@ -95,8 +95,6 @@ h2{
 .body-team-specific {
     margin: 0;
     padding: 0 40px;
-    background: url("../assets/pkchu_bg.jpeg") repeat;
-    background-size: 25%;
     min-height: calc(100vh - 25px);
     box-sizing: border-box;
     width: 100vw;

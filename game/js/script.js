@@ -383,6 +383,8 @@ class Emulator {
     startEl.addEventListener("mouseup", this.boundButtonTouchEnd);
     bEl.addEventListener("touchstart", this.boundButtonTouchStart);
     bEl.addEventListener("touchend", this.boundButtonTouchEnd);
+    bEl.addEventListener("mousedown", this.boundButtonTouchStart);
+    bEl.addEventListener("mouseup", this.boundButtonTouchEnd);
     aEl.addEventListener("touchstart", this.boundButtonTouchStart);
     aEl.addEventListener("touchend", this.boundButtonTouchEnd);
     aEl.addEventListener("mousedown", this.boundButtonTouchStart);
