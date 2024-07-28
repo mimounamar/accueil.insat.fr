@@ -18,14 +18,14 @@ $TEAMS_DESCRIPTIONS['pkchu'] = "
 $TEAMS_DESCRIPTIONS['salapeks'] = "
                 <p>Si tu es ici, c'est que tu sais sûrement que tu fais partie de l'incroyable équipe des SalaPeks.</p>
                 <p>Aussi chauds que l'effet Joule, on est là pour gagner !</p>
-                <p>Je suis Tyllian, et en tant que dresseur ancestral, je suis à ta disposition si tu as une quelconque question sur ta semaine ! Alors, n'hésite surtout pas à me contacter ;)</p>
+                <p>Je suis Tyliann, et en tant que dresseur ancestral, je suis à ta disposition si tu as une quelconque question sur ta semaine ! Alors, n'hésite surtout pas à me contacter ;)</p>
                 <p>En cas de besoin, voici mon adresse mail : <strong>nozais@insa-toulouse.fr</strong></p>
                 <p>Profite à fond de cette semaine qui, j’espère, restera gravée dans ta mémoire pour de longues années et marquera ton entrée dans notre belle école (je te félicite au passage pour ton admission !)</p>
                 <p>Fais le plein d’énergie, de soleil et de bonne humeur, je t’attends avec impatience !</p>
                 <p>Tyliann NOZAIS - Le vice-président</p>";
 $TEAMS_DESCRIPTIONS['boombizar'] = "
                 <p>Si tu es ici, c'est que tu sais sûrement que tu fais partie de l'incroyable équipe des Boom'Bizars.</p>
-                <p>Aussi électriques que des piles à hydrogène, on est là pour gagner !</p>
+                <p>Aussi végétalisés que le mail en été, on est là pour gagner !</p>
                 <p>Je suis Olivier, et en tant que dresseur ancestral, je suis à ta disposition si tu as une quelconque question sur ta semaine ! Alors, n'hésite surtout pas à me contacter ;)</p>
                 <p>En cas de besoin, voici mon adresse mail : <strong>fuma@insa-toulouse.fr</strong></p>
                 <p>Profite à fond de cette semaine qui, j’espère, restera gravée dans ta mémoire pour de longues années et marquera ton entrée dans notre belle école (je te félicite au passage pour ton admission !)</p>
@@ -33,7 +33,7 @@ $TEAMS_DESCRIPTIONS['boombizar'] = "
                 <p>Olivier FUMA - Le trésorier</p>";
 $TEAMS_DESCRIPTIONS['carapalette'] = "
                 <p>Si tu es ici, c'est que tu sais sûrement que tu fais partie de l'incroyable équipe des Carapalettes.</p>
-                <p>Aussi électriques que des piles à hydrogène, on est là pour gagner !</p>
+                <p>Incompris des autres, on est tout de même là pour gagner !</p>
                 <p>Je suis Nisma, et en tant que dresseur ancestral, je suis à ta disposition si tu as une quelconque question sur ta semaine ! Alors, n'hésite surtout pas à me contacter ;)</p>
                 <p>En cas de besoin, voici mon adresse mail : <strong>tamime@insa-toulouse.fr</strong></p>
                 <p>Profite à fond de cette semaine qui, j’espère, restera gravée dans ta mémoire pour de longues années et marquera ton entrée dans notre belle école (je te félicite au passage pour ton admission !)</p>
