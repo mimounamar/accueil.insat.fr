@@ -25,6 +25,21 @@
         </div>
     </section>
 </div>
+
+<div class="nes-container with-title text-content">
+    <p class="title">Tu as un problème à signaler pendant la semaine ?</p>
+    <section class="nes-content">
+        <div class="nes-text">
+            <p>Si tu rencontres des problèmes pendant la semaine d'accueil, n'hésite pas à venir nous voir ou à nous envoyer un message.</p>
+            <p>Pour t'authentifier, utilise tes identifiants envoyés pour le parrainage.</p>
+            <div class="btn-container-nes">
+                <a class="nes-btn" href="../report.php">Signaler un problème</a>
+            </div>
+        </div>
+        <img src="../assets/warning_cartridge.png" style="max-height: 200px">
+    </section>
+</div>
+
 <div class="nes-container with-title text-content">
     <p class="title">Quelques ressources utiles...</p>
     <section class="nes-content">
