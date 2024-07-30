@@ -46,4 +46,4 @@ $TEAM_COLORS['salapeks'] = "orange";
 $TEAM_COLORS['boombizar'] = "vert";
 $TEAM_COLORS['carapalette'] = "bleu";
 
-$BRIDGE_URL = "http://localhost";
+$BRIDGE_URL = "https://parrainage.accueil.insat.fr";
