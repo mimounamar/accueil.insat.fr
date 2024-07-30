@@ -32,6 +32,22 @@
             <img src="../assets/<?php echo $_COOKIE['selected_team']; ?>_game.png" style="max-height: 200px">
         </section>
     </div>
+
+    <div class="nes-container with-title text-content">
+        <p class="title">Voici le score de ton équipe !</p>
+        <section class="nes-content" style="display: block">
+            <p>Actuellement, vous êtes à <?php echo file_get_contents("{$BRIDGE_URL}/bridge/accueil.insat.fr_score/team_score?selected_team={$_COOKIE['selected_team']}");?> points.</p>
+            <p>Voici le classement actuel des équipes.</p>
+            <div class="scores" style="padding-bottom: 20px;">
+                <?php echo file_get_contents("{$BRIDGE_URL}/bridge/accueil.insat.fr_score/team_ranking");?>
+            </div>
+            <p>Voici certains commentaires marquants concernant ton équipe :</p>
+            <div class="scores">
+                <?php echo file_get_contents("{$BRIDGE_URL}/bridge/accueil.insat.fr_score/team_comments?selected_team={$_COOKIE['selected_team']}");?>
+            </div>
+        </section>
+    </div>
+
     <p style="font-size: 9px; margin: 15px 20%; text-align: center">Site de la semaine d'accueil 2024 pour l'INSA Toulouse. <br>
         Tous les éléments présents sur ce site sont représentés à des fins humoristiques. Nous ne cherchons en aucun cas à véhiculer un quelconque message et condamnons toute action irrespectueuse.<br>
         Copyright © 2024 - Tous droits réservés </p>

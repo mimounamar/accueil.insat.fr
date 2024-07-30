@@ -45,3 +45,5 @@ $TEAM_COLORS['pkchu'] = "jaune";
 $TEAM_COLORS['salapeks'] = "orange";
 $TEAM_COLORS['boombizar'] = "vert";
 $TEAM_COLORS['carapalette'] = "bleu";
+
+$BRIDGE_URL = "http://localhost";

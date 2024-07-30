@@ -326,3 +326,27 @@ nav:after{
 .nes-full-body > section {
     min-height: calc(100vh - 120px);
 }
+.scores {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.score-detail {
+    display: grid;
+    width: 90%;
+    grid-template-columns: 1fr 9fr;
+    color: rgba(255, 255, 255, 0.8);
+    box-sizing: border-box;
+}
+.score-number {
+    background: grey;
+    padding: 5px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.score-comment {
+    background: black;
+    padding: 5px 10px;
+}
