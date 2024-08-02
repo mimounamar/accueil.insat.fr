@@ -19,6 +19,9 @@
             <div class="nes-text">
                 <p>Toutes nos salutations jeune dresseur·se. Ce site est fait pour t'aider à commencer ton aventure en toute sérénité.</p>
                 <p>Ici, tu trouveras des informations générales sur la semaine d'accueil ainsi que sur la vie Insaïenne !</p>
+                <div class="btn-container-nes">
+                    <a class="nes-btn" href="/assets/plaquette.pdf">Lire la plaquette pour préparer la rentrée</a>
+                </div>
             </div>
         </section>
     </div>
