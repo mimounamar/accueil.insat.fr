@@ -21,6 +21,11 @@
                 <p>Ici, tu trouveras des informations générales sur la semaine d'accueil ainsi que sur la vie Insaïenne !</p>
                 <div class="btn-container-nes">
                     <a class="nes-btn" href="/assets/plaquette.pdf">Lire la plaquette pour préparer la rentrée</a>
+                </div><br>
+                <p>Aussi, n'oublie pas de nous envoyer ta fiche de droit à l'image. Nous en avons besoin pour pouvoir prendre des photos et créer des souvenirs de cette incroyable semaine !</p>
+                <p>Pour t'authentifier, utilise tes identifiants envoyés pour le parrainage.</p>
+                <div class="btn-container-nes">
+                    <a class="nes-btn" href="/reproduction-right.php">Envoyer ta fiche de droit à l'image</a>
                 </div>
             </div>
         </section>
