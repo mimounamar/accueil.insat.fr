@@ -4,9 +4,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Semaine d'accueil 2024 - INSA de Toulouse</title>
-    <link rel="stylesheet" href="../styles/common.css">
-    <link rel="stylesheet" href="../styles/gameboy.css">
-    <link rel="icon" type="image/x-icon" href="/assets/favicon.ico">
+    <link rel="stylesheet" href="styles/common.css">
+    <link rel="stylesheet" href="styles/gameboy.css">
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
 </head>
 <body>
 <div class="page-division" style="background: #E70013">
@@ -136,8 +136,8 @@
 
 
         </script>
-        <script src="../game/binjgb.js"></script>
-        <script src="../game/js/script.js"></script>
+        <script src="game/binjgb.js"></script>
+        <script src="game/js/script.js"></script>
     </div>
 </div>
 
@@ -150,7 +150,7 @@
         foreach ($TEAMS_ID as $team_id) {
             echo "
             <button class='cartridge-click' onclick='window.location.href=\"set_team.php?selected_team={$team_id}\"'>
-            <img src='../assets/{$team_id}_game.png' class='cartridge-click' alt='Équipe {$TEAMS_DISPLAY_NAMES[$team_id]}'>
+            <img src='assets/{$team_id}_game.png' class='cartridge-click' alt='Équipe {$TEAMS_DISPLAY_NAMES[$team_id]}'>
         </button>
             ";
         }

@@ -1,5 +1,5 @@
 <nav class="nes-container is-rounded">
-    <img class="controller-btn" src="../assets/cross.png" style="height: 90px">
+    <img class="controller-btn" src="assets/cross.png" style="height: 90px">
     <ul class="nav-list" id="nav-list">
         <li class="nav-lis-element nav-variable-control">
             <a class="nes-btn" id="toggle-btn" onclick="toggleNav()">Ξ</a>
@@ -23,10 +23,10 @@
             <a class="nes-btn" href="https://parrainage.accueil.insat.fr/ppa">Parrainage</a>
         </li>
         <li class="nav-lis-element nav-variable">
-            <a class="nes-btn" href="/" onclick="document.cookie =  'selected_team=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/';">Quitter</a>
+            <a class="nes-btn" href="/~mamar" onclick="document.cookie =  'selected_team=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/';">Quitter</a>
         </li>
     </ul>
-    <img class="controller-btn" src="../assets/ABXY.png" style="height: 100px">
+    <img class="controller-btn" src="assets/ABXY.png" style="height: 100px">
 </nav>
 
 <script>
