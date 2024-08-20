@@ -1,10 +1,10 @@
 @font-face {
     font-family: "Press Start 2P";
-    src: url('/assets/PressStart2P-Regular.ttf');
+    src: url('../assets/PressStart2P-Regular.ttf');
 }
 @font-face {
     font-family: "Press Start 2P Cond";
-    src: url('/assets/PressStart2P-Regularcond.ttf');
+    src: url('../assets/PressStart2P-Regularcond.ttf');
 }
 body {
     margin: 0;
